@@ -25,6 +25,8 @@
   width: 80%;
   height: 25%;
 
+  margin-bottom: 2rem;
+
 }
 
 .solutionTitle h1 {
@@ -66,8 +68,8 @@
 }
 
 .icon{
-    width: 60%;
-    height: 60%;
+    width: 60px;
+    height: 60px;
     background: white;
     border-radius: 10rem;
 
