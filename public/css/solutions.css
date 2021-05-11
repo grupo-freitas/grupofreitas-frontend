@@ -26,7 +26,6 @@
   height: 25%;
 
   margin-bottom: 2rem;
-
 }
 
 .solutionTitle h1 {
@@ -47,65 +46,60 @@
   text-align: justify;
 }
 
-
 .solution {
-    width: 95%;
-    height: 8rem;
+  width: 95%;
+  height: 8rem;
 
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .iconSolution {
-    width: 35%;
-    height: 100%;
+  width: 35%;
+  height: 100%;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.icon{
-    width: 60px;
-    height: 60px;
-    background: white;
-    border-radius: 10rem;
+.icon {
+  width: 60px;
+  height: 60px;
+  background: white;
+  border-radius: 10rem;
 
-    box-shadow: 0 0 7px rgba(165, 165, 165, 0.6);
+  box-shadow: 0 0 7px rgba(165, 165, 165, 0.6);
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.icon img{
-    width: 60%;
-    height: 60%;
+.icon img {
+  width: 60%;
+  height: 60%;
 }
 
-
-.infoSolution{
-    width: 65%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
-    
+.infoSolution {
+  width: 65%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.infoSolution h1{
-    color: #111633;
-    font-weight: 400;
-    margin-bottom: 0.4rem;
+.infoSolution h1 {
+  color: #111633;
+  font-weight: 400;
+  margin-bottom: 0.4rem;
 
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
-.infoSolution span{
-    color: #8f8f8f;
-    font-size: 0.9rem;
+.infoSolution span {
+  color: #8f8f8f;
+  font-size: 0.9rem;
 }
-
