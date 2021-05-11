@@ -1,0 +1,74 @@
+.negotiate {
+  width: 100%;
+  height: 38rem;
+  background: #eeeeee;
+
+  display: flex;
+  justify-content: center;
+}
+
+#negotiateback {
+  background: #ffffff;
+}
+
+.negotiateTitle {
+  width: 80%;
+  height: 20rem;
+}
+
+.negotiateTitle h2 {
+  margin-top: 1rem;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #333333;
+}
+
+.negotiateTitle span img {
+  width: 3rem;
+}
+
+.negotiateTitle p {
+  text-align: justify;
+  color: #727272;
+}
+
+.negotiateTitle button {
+  margin-top: 1rem;
+
+  width: 13rem;
+  height: 3.5rem;
+
+  border: 0;
+  border-radius: 0.4rem;
+  background: #3189ff;
+
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.6);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.negotiateTitle button p {
+  font-size: 1.1rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+.negotiateTitle button span i {
+  margin-top: 0.15rem;
+  color: white;
+  width: 2rem;
+  font-size: 1rem;
+}
+
+.negotiateImg {
+    width: 100%;
+    height: 15rem;
+    
+}
+
+.negotiateImg img {
+  margin-top: 1rem;
+  width: 90%;
+}
