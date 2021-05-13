@@ -5,6 +5,7 @@
 
   display: flex;
   justify-content: center;
+  padding-bottom: 3rem;
 }
 
 #negotiateback {
@@ -13,6 +14,11 @@
 
 .negotiateTitle {
   width: 80%;
+  height: auto;
+}
+
+.negotiateInfo{
+  width: 100%;
   height: auto;
 }
 
@@ -80,5 +86,16 @@
 @media (min-width: 600px) and (max-width: 769px) {
   .negotiateTitle p {
     font-size: 1.2rem;
+  }
+
+  .negotiateTitle{
+    display: flex;
+    flex-direction: row;
+  }
+  .negotiateInfo{
+    width: 50%;
+  }
+  .negotiateImg{
+    width: 50%;
   }
 }
