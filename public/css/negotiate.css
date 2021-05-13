@@ -94,7 +94,7 @@
 
 /* ! Layout IPAD */
 
-@media (min-width: 600px) and (max-width: 769px) {
+@media (min-width: 600px) and (max-width: 3840px) {
   .negotiateTitle p {
     font-size: 1.2rem;
   }
