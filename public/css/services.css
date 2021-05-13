@@ -8,6 +8,17 @@
   flex-direction: column;
 }
 
+.servicesIpad{
+  width: 80%;
+  height: 50%;
+
+  display: none;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+}
+
 .channelTitle {
   width: 100%;
   height: 5rem;
@@ -69,4 +80,26 @@
 .buttons-channel button i{
     font-size: 2.3rem;
     color: white;
+}
+
+
+@media (min-width: 600px) and (max-width: 769px){
+  .services-channels{
+    flex-direction:  column;
+  }
+
+  .channel{
+    flex-direction: column;
+  }
+  .services{
+    display: none;
+  }
+  .servicesIpad {
+    width: 100%;
+    display: flex;
+  }
+  .buttons-channel{
+    width: 30%;
+    height: 50%;
+  }
 }
