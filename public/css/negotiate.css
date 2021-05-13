@@ -12,8 +12,17 @@
   background: #ffffff;
 }
 
+#desative {
+  display: none;
+}
+
 .negotiateTitle {
   width: 80%;
+  height: auto;
+}
+
+.negotiateInfoMid{
+  width: 100%;
   height: auto;
 }
 
@@ -71,6 +80,7 @@
 .negotiateImg {
   width: 100%;
   height: auto;
+  
 }
 
 .negotiateImg img {
@@ -97,5 +107,12 @@
   }
   .negotiateImg{
     width: 50%;
+  }
+  .negotiateInfoMid{
+    display: none;
+  }
+  #desative {
+    display: flex;
+    flex-direction: column;
   }
 }
