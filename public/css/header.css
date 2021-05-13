@@ -14,7 +14,7 @@
 }
 
 .logo {
-  width: 50%;
+  width: 300px;
   height: 100%;
 
   display: flex;
@@ -23,11 +23,11 @@
 }
 
 .logo img {
-  width: 90%;
+  width: 250px;
 }
 
 .menu {
-  width: 50%;
+  width: 55%;
   height: 100%;
 
   display: flex;
@@ -76,12 +76,13 @@
   height: 30%;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
 }
 
 .buttons button {
   width: 8rem;
   height: 45%;
+  margin-right: 10px;
 
   border: 0;
   border-radius: 0.4rem;
@@ -100,4 +101,19 @@
   background: none;
   border: 1px solid #fff;
   font-weight: 500;
+}
+
+/* ! Layout IPAD */
+
+@media (min-width: 600px) and (max-width: 769px) {
+  .infoHeader p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    text-align: justify;
+  }
+
+  .infoHeader h1 {
+    font-size: 2.8rem;
+  }
 }

@@ -36,3 +36,17 @@
   color: #828282;
   font-weight: 400;
 }
+
+/* ! Layout IPAD */
+
+@media (min-width: 600px) and (max-width: 769px) {
+  .feature h3 {
+    font-size: 1.5rem;
+  }
+
+  .feature span {
+    font-size: 1.2rem;
+  }
+
+  
+}

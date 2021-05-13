@@ -47,7 +47,7 @@
 }
 
 .solution {
-  width: 95%;
+  width: 85%;
   height: 8rem;
 
   display: flex;
@@ -57,7 +57,7 @@
 }
 
 .iconSolution {
-  width: 35%;
+  width: 30%;
   height: 100%;
 
   display: flex;
@@ -97,9 +97,33 @@
   margin-bottom: 0.4rem;
 
   font-size: 1.1rem;
+
+  text-align: justify;
 }
 
 .infoSolution span {
   color: #8f8f8f;
   font-size: 0.9rem;
+  text-align: justify;
+}
+
+/* ! Layout IPAD */
+
+@media (min-width: 600px) and (max-width: 769px){
+  .solutionTitle h3{
+    font-size: 1.2rem;
+  }
+
+  .icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .infoSolution h1{
+    font-size: 1.3rem;
+  }
+
+  .infoSolution span {
+    font-size: 1.1rem;
+  }
 }

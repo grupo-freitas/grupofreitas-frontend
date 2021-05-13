@@ -37,7 +37,10 @@ footer {
 
 form {
   width: 80%;
-  height: 50%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .inputForm {
@@ -175,7 +178,7 @@ form button h3 {
 }
 
 .socials {
-  width: 100%;
+  width: 80%;
   height: 8rem;
 
   display: flex;
@@ -194,4 +197,55 @@ form button h3 {
 .social i {
   color: #ffffff;
   font-size: 1.7rem;
+}
+
+/* ! Layout IPAD */
+
+@media (min-width: 600px) and (max-width: 769px) {
+  .footerTitle h2 {
+    font-size: 2rem;
+  }
+
+  .footerTitle p {
+    font-size: 1.2rem;
+  }
+
+  .locationTitle h2 {
+    font-size: 2rem;
+  }
+
+  .locationTitle p {
+    font-size: 1.2rem;
+  }
+
+  form button h3 {
+    font-size: 1.3rem;
+  }
+
+  .buttonDiv button h3 {
+    font-size: 1.3rem;
+  }
+
+  .inputForm {
+    font-size: 1.1rem;
+  }
+
+  .message {
+    font-size: 1.1rem;
+  }
+
+  .contactInfo p {
+    font-size: 1rem;
+  }
+
+  .contactInfo img {
+    height: 120px;
+    width: 200px;
+  }
+
+  .contact h2, .contact h3 {
+    font-size: 1rem;
+  }
+
+  
 }

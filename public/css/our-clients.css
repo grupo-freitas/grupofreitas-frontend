@@ -11,7 +11,7 @@
 
 .client {
   width: 80%;
-  height: 65%;
+  height: auto;
 }
 
 .client h2 {
@@ -47,4 +47,17 @@
   width: 80%;
   height: 35%;
   background: red;
+}
+
+/* ! Layout IPAD */
+
+@media (min-width: 600px) and (max-width: 769px){
+  .client h4{
+    font-size: 1.2rem;
+  }
+
+  .client p {
+    font-size: 1.2rem;
+  }
+  
 }

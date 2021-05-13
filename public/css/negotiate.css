@@ -13,7 +13,7 @@
 
 .negotiateTitle {
   width: 80%;
-  height: 20rem;
+  height: auto;
 }
 
 .negotiateTitle h2 {
@@ -69,5 +69,13 @@
 
 .negotiateImg img {
   margin-top: 1rem;
-  width: 90%;
+  width: 350px;
+}
+
+/* ! Layout IPAD */
+
+@media (min-width: 600px) and (max-width: 769px) {
+  .negotiateTitle p {
+    font-size: 1.2rem;
+  }
 }
