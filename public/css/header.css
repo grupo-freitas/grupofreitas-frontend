@@ -117,3 +117,10 @@
     font-size: 2.8rem;
   }
 }
+
+
+/* ? Layout DESKTOP  */
+
+@media (min-width: 770px)  and (max-width: 3840px){
+  
+}
