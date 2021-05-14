@@ -147,6 +147,11 @@
     background-image: none;
     height: 60rem;
   }
+
+  .menu ul li i {
+    font-size: 0.7rem;
+  }
+
   .headerContent{
     margin-top: 3rem;
   }
