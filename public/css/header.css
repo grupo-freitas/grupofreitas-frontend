@@ -57,7 +57,7 @@
 .menu i {
   font-size: 1.5rem;
   color: white;
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 
 .headerContent {
@@ -152,7 +152,7 @@
     font-size: 0.7rem;
   }
 
-  .headerContent{
+  .headerContent {
     margin-top: 3rem;
   }
 
@@ -191,7 +191,7 @@
     list-style: none;
     margin-right: 40px;
 
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     font-weight: 400;
     cursor: pointer;
   }
@@ -220,21 +220,22 @@
   #desativeIcon {
     display: none;
   }
-  
-
 
   .buttons {
-    height: 7.5rem;
+    height: 7rem;
     display: flex;
     align-items: center;
-
   }
 
   .buttons button {
     cursor: pointer;
   }
 
-
+  .buttons button:hover {
+    width: 8.2rem;
+    height: 50%;
+    transition: 0.25s;
+  }
 
   .history {
     margin-top: -13rem;
