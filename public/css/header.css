@@ -232,8 +232,8 @@
   }
 
   .buttons button:hover {
-    width: 8.2rem;
     height: 50%;
+    width: 8.2rem;
     transition: 0.25s;
   }
 
