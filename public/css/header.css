@@ -242,9 +242,9 @@
   }
 
   .menu li ul {
-    position: absolute;
-    top: 75px;
-    left: 53.8rem;
+    position: fixed;
+    top: 12%;
+    left: 63.5%;
     background-color: #fff;
     display: none;
 
