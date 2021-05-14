@@ -147,9 +147,24 @@
     background-image: none;
     height: 60rem;
   }
+  .headerContent{
+    margin-top: 3rem;
+  }
 
   .infoHeader {
     height: auto;
+  }
+
+  .infoHeader h1 {
+    font-size: 3.3rem;
+    font-weight: 600;
+  }
+
+  .infoHeader p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+    width: 60%;
   }
   .opacityVideo {
     display: flex;
@@ -190,7 +205,7 @@
   }
 
   .logo img {
-    width: 190px;
+    width: 200px;
   }
 
   #desativeHeader {
@@ -199,5 +214,24 @@
 
   #desativeIcon {
     display: none;
+  }
+  
+
+
+  .buttons {
+    height: 7.5rem;
+    display: flex;
+    align-items: center;
+
+  }
+
+  .buttons button {
+    cursor: pointer;
+  }
+
+
+
+  .history {
+    margin-top: -13rem;
   }
 }
