@@ -56,6 +56,12 @@
   margin-bottom: 1rem;
 }
 
+#activeSolution {
+  display: none;
+}
+#desativeSolution {
+  display: flex;
+}
 .iconSolution {
   width: 30%;
   height: 100%;
@@ -126,4 +132,18 @@
   .infoSolution span {
     font-size: 1.1rem;
   }
+}
+
+
+
+/* ! Layout DESKTOP */
+@media (min-width: 770px)  and (max-width: 3840px){
+  #desativeSolution{
+    display: none;
+  }
+  #activeSolution{
+    display: flex;
+  }
+  
+
 }
