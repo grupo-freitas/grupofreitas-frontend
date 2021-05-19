@@ -163,4 +163,22 @@
   .solutionTitle h3{
     font-size: 0.9rem;
   }
+  .solution{
+    width: 23%;
+    height: auto;
+  }
+  .solutionthird{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+  .infoSolution span{
+    font-size: 0.8rem;
+  }
+  .infoSolution h1{
+    font-size: 1.1rem;
+  }
 }
