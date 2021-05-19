@@ -147,4 +147,12 @@
   .negotiateImg img{
     width: 80%;
   }
+  .negotiateTitle p{
+    font-size: 0.95rem;
+  }
+
+  .negotiateTitle h2{
+    font-size: 1.4rem;
+  }
+
 }
