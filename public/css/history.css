@@ -82,10 +82,10 @@
   }
 
   .infoHistory{
-    width: 35%;
+    width: 30%;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
   }
   .imgHistory {
     margin-top: 5rem;

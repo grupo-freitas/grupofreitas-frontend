@@ -144,6 +144,23 @@
   #activeSolution{
     display: flex;
   }
-  
+  .solutionInit{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
 
+  .solutionImg{
+    width: 30%;
+    display: flex;
+
+  }
+  .solutionTitle{
+    width: 30%;
+  }
+  .solutionTitle h3{
+    font-size: 0.9rem;
+  }
 }
