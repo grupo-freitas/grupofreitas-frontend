@@ -70,7 +70,10 @@
   
 
   .containerHistory {
+    margin-top: 2rem;
     display: flex;
+    align-items: center;
+    justify-content: center;
     
   }
 
@@ -79,20 +82,22 @@
   }
 
   .infoHistory{
-    width: 50%;
+    width: 35%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
   }
   .imgHistory {
-    width: 50%;
+    margin-top: 5rem;
+    width: 600px;
+    height: 400px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
   }
   .imgHistory  img {
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 100%;
   }
 
   .titleHistory h1{
