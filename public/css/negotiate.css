@@ -129,3 +129,22 @@
 }
 
 /* ? Layout DESKTOP  */
+@media (min-width: 770px)  and (max-width: 3840px){
+  .negotiateTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .negotiateInfo{
+    width: 35%;
+  }
+  .negotiateImg{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .negotiateImg img{
+    width: 80%;
+  }
+}
