@@ -338,7 +338,7 @@ form button h3 {
   }
 
   .headerContact{
-    width: 900px;
+    width: 50%;
     height: 7rem;
     display: flex;
     flex-direction: row;
@@ -354,7 +354,7 @@ form button h3 {
   }
 
   .logoContact img{
-    width: 90%;
+    width: 100%;
     height: 100%;
   }
   
@@ -375,7 +375,7 @@ form button h3 {
   }
   .menuContact ul li{
     color: #fff;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     margin:  0 1rem 0 1rem;
     cursor: pointer;
   }
@@ -393,7 +393,7 @@ form button h3 {
   }
 
   .contactAdress p {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
  
   }
 
