@@ -268,5 +268,39 @@ form button h3 {
     display: flex;
   }
 
-  
+  .footerInit{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: auto;
+  }
+  .footerInfo{
+    width: 30%;
+    border-bottom: 1px solid #979797;
+  }
+  .formContact{
+    width: 20%;
+    margin-top: 5rem;
+    border-bottom: 1px solid #979797;
+  }
+
+  .footerTitle{
+    margin-bottom: 4.7rem;
+  }
+  .footerTitle p{
+    font-size: 0.9rem;
+  }
+
+  .locationTitle p{
+    font-size: 0.9rem;
+  }
+
+  .locationTitle {
+    margin-bottom: 1.5rem;
+  }
+
+  .buttonDiv {
+    padding-top: 2rem;
+    border-bottom: none;
+  }
 }
