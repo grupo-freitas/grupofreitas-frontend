@@ -63,25 +63,23 @@
   }
 }
 
-@media (min-width: 770px)  and (max-width: 3840px){
+@media (min-width: 770px) and (max-width: 3840px) {
   .history {
     height: auto;
   }
-  
 
   .containerHistory {
     margin-top: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    
   }
 
   .desativeHistory {
     display: none;
   }
 
-  .infoHistory{
+  .infoHistory {
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -96,12 +94,12 @@
     align-items: flex-start;
     justify-content: center;
   }
-  .imgHistory  img {
+  .imgHistory img {
     width: 90%;
     height: 100%;
   }
 
-  .titleHistory h1{
+  .titleHistory h1 {
     font-size: 1.7rem;
   }
 
@@ -109,14 +107,8 @@
     font-size: 0.9rem;
   }
 
-  .titleHistory{
+  .titleHistory {
     height: auto;
     margin-top: 3rem;
   }
-
-  
-
-
 }
-
-

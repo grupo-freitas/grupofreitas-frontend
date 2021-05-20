@@ -22,12 +22,12 @@
   height: auto;
 }
 
-.negotiateInfoMid{
+.negotiateInfoMid {
   width: 100%;
   height: auto;
 }
 
-.negotiateInfo{
+.negotiateInfo {
   width: 100%;
   height: auto;
 }
@@ -81,13 +81,11 @@
 .negotiateImg {
   width: 100%;
   height: auto;
-  
 }
 
 .negotiateImg img {
   margin-top: 1rem;
   width: 290px;
-  
 
   object-fit: cover;
 }
@@ -99,25 +97,22 @@
     font-size: 1.2rem;
   }
 
-  .negotiateTitle{
+  .negotiateTitle {
     display: flex;
     flex-direction: row;
   }
-  .negotiateInfo{
+  .negotiateInfo {
     width: 50%;
     margin-right: 2rem;
   }
-  .negotiateImg{
+  .negotiateImg {
     width: 50%;
-    
   }
 
-  .negotiateImg img{
+  .negotiateImg img {
     width: 100%;
-
-
   }
-  .negotiateInfoMid{
+  .negotiateInfoMid {
     display: none;
   }
   #desative {
@@ -125,34 +120,32 @@
     flex-direction: column;
     margin-left: 2rem;
   }
-  
 }
 
 /* ? Layout DESKTOP  */
-@media (min-width: 770px)  and (max-width: 3840px){
-  .negotiateTitle{
+@media (min-width: 770px) and (max-width: 3840px) {
+  .negotiateTitle {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .negotiateInfo{
+  .negotiateInfo {
     width: 35%;
   }
-  .negotiateImg{
+  .negotiateImg {
     width: 35%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .negotiateImg img{
+  .negotiateImg img {
     width: 80%;
   }
-  .negotiateTitle p{
+  .negotiateTitle p {
     font-size: 0.95rem;
   }
 
-  .negotiateTitle h2{
+  .negotiateTitle h2 {
     font-size: 1.4rem;
   }
-
 }

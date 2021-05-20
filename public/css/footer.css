@@ -15,8 +15,6 @@ footer {
   height: 15%;
 }
 
-
-
 .footerTitle h2 {
   color: #979797;
   font-weight: 300;
@@ -95,10 +93,10 @@ form button h3 {
   font-weight: 300;
 }
 
-#desativeFooter{
+#desativeFooter {
   display: flex;
 }
-#activeFooter{
+#activeFooter {
   display: none;
 }
 
@@ -252,46 +250,44 @@ form button h3 {
     width: 200px;
   }
 
-  .contact h2, .contact h3 {
+  .contact h2,
+  .contact h3 {
     font-size: 1rem;
   }
-
-  
 }
 
-
 @media (min-width: 770px) and (max-width: 3840px) {
-  #desativeFooter{
+  #desativeFooter {
     display: none;
   }
-  #activeFooter{
+  #activeFooter {
     display: flex;
   }
 
-  .footerInit{
+  .footerInit {
     display: flex;
     width: 100%;
     justify-content: center;
     height: auto;
   }
-  .footerInfo{
+  .footerInfo {
     width: 30%;
     border-bottom: 1px solid #979797;
   }
-  .formContact{
+  .formContact {
     width: 20%;
     margin-top: 5rem;
     border-bottom: 1px solid #979797;
   }
 
-  .footerTitle{
+  .footerTitle {
     margin-bottom: 4.7rem;
   }
-  .footerTitle p{
+  .footerTitle p {
     font-size: 0.9rem;
   }
 
-  .locationTitle p{
+  .locationTitle p {
     font-size: 0.9rem;
   }
 
