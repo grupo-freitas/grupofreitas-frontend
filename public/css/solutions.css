@@ -159,6 +159,7 @@
   .solutionImg{
     width: 30%;
     display: flex;
+    margin-right: 1.5rem;
 
   }
   .solutionTitle{
