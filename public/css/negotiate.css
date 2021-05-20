@@ -129,23 +129,37 @@
     align-items: center;
     justify-content: center;
   }
+
+  .negotiate{
+    height: 600px;
+  }
+
   .negotiateInfo {
     width: 35%;
   }
+
+  
   .negotiateImg {
-    width: 35%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    
   }
   .negotiateImg img {
-    width: 80%;
+    width: 90%;
+    height: 50%;
+    object-fit: cover;
+
+
   }
   .negotiateTitle p {
-    font-size: 0.95rem;
+    font-size: 1rem;
   }
 
   .negotiateTitle h2 {
-    font-size: 1.4rem;
+    font-size: 2.2rem;
   }
+
+
 }
