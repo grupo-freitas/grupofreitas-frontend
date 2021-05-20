@@ -9,6 +9,14 @@
   flex-direction: column;
 }
 
+#activeClients{
+  display: none;
+}
+
+#desativeClients{
+  display: flex;
+}
+
 .client {
   width: 80%;
   height: auto;
@@ -60,4 +68,15 @@
     font-size: 1.2rem;
   }
   
+}
+
+
+@media (min-width: 770px)  and (max-width: 3840px){
+  #activeClients{
+    display: flex;
+  }
+  
+  #desativeClients{
+    display: none;
+  }
 }
