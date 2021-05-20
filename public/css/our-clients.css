@@ -79,4 +79,23 @@
   #desativeClients{
     display: none;
   }
+
+  .client {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .clientTitle{
+    width: 30%;
+  }
+
+  .infoClient {
+    width: 50%;
+    padding-left: 2rem;
+  }
+
+  .infoClient p{
+    margin: 0;
+    font-size: 0.9rem;
+  }
 }
