@@ -93,10 +93,10 @@ form button h3 {
   font-weight: 300;
 }
 
-#desativeFooter {
+.desativeFooter {
   display: flex;
 }
-#activeFooter {
+.activeFooter {
   display: none;
 }
 
@@ -257,10 +257,10 @@ form button h3 {
 }
 
 @media (min-width: 770px) and (max-width: 3840px) {
-  #desativeFooter {
+  .desativeFooter {
     display: none;
   }
-  #activeFooter {
+  .activeFooter {
     display: flex;
   }
 
@@ -278,6 +278,8 @@ form button h3 {
     width: 20%;
     margin-top: 5rem;
     border-bottom: 1px solid #979797;
+    display: flex;
+   justify-content: flex-end;
   }
 
   .footerTitle {
@@ -299,4 +301,60 @@ form button h3 {
     padding-top: 2rem;
     border-bottom: none;
   }
+
+  .buttonDiv button:hover{
+    background: #fff;
+    cursor: pointer;
+    
+    
+  }
+
+  .buttonDiv button h3:hover{
+    color: black;
+    font-weight: 400;
+  }
+
+  .formContact button:hover{
+    background: #fff;
+    cursor: pointer;
+    
+  }
+  .formContact button h3:hover{
+    color: black;
+    font-weight: 400;
+  }
+
+  .activeFooter{
+    padding-top: 3rem;
+  }
+
+  .contact {
+    width: 100%;
+    height: 20rem;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .headerContact{
+    width: 50%;
+    height: 5rem;
+    background: red;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .logoContact{
+    width: 20%;
+    height: 100%;
+    background: blue;
+  }
+
+  .menuContact{
+    width: 60%;
+    height: 100%;
+    background: cadetblue;
+  }
+
 }
