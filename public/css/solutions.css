@@ -150,6 +150,10 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
+
+    padding-top: 3.3rem;
+    padding-bottom: 3.3rem;
   }
 
   .solutionImg{
