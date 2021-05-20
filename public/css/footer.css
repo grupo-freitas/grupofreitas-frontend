@@ -15,6 +15,8 @@ footer {
   height: 15%;
 }
 
+
+
 .footerTitle h2 {
   color: #979797;
   font-weight: 300;
@@ -91,6 +93,13 @@ form button {
 form button h3 {
   color: #ffffff;
   font-weight: 300;
+}
+
+#desativeFooter{
+  display: flex;
+}
+#activeFooter{
+  display: none;
 }
 
 /* LOCATION */
@@ -245,6 +254,18 @@ form button h3 {
 
   .contact h2, .contact h3 {
     font-size: 1rem;
+  }
+
+  
+}
+
+
+@media (min-width: 770px) and (max-width: 3840px) {
+  #desativeFooter{
+    display: none;
+  }
+  #activeFooter{
+    display: flex;
   }
 
   
