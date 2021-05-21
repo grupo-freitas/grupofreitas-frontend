@@ -130,13 +130,13 @@
 @media (min-width: 600px) and (max-width: 769px) {
   .infoHeader p {
     font-size: 1.1rem;
-    font-weight: 400;
+    font-weight: 200;
     line-height: 1.6rem;
     text-align: justify;
   }
 
   .infoHeader h1 {
-    font-size: 2.8rem;
+    font-size: 2.4rem;
   }
 }
 
