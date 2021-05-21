@@ -300,6 +300,7 @@ form button h3 {
   .buttonDiv {
     padding-top: 2rem;
     border-bottom: none;
+    margin-top: 2rem;
   }
 
   .buttonDiv button:hover{
