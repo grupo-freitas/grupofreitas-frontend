@@ -133,7 +133,6 @@ form button h3 {
 .buttonDiv {
   width: 100%;
   height: 100px;
-  margin-top: 2rem;
 
   border-bottom: 1px solid #979797;
 }
@@ -217,13 +216,6 @@ form button h3 {
   .footerTitle p {
     font-size: 1.2rem;
   }
-  .locationTitle {
-    height: auto;
-  }
-
-  .buttonDiv {
-    margin-top: 2rem;
-  }
 
   .locationTitle h2 {
     font-size: 2rem;
@@ -287,7 +279,7 @@ form button h3 {
     margin-top: 5rem;
     border-bottom: 1px solid #979797;
     display: flex;
-    justify-content: flex-end;
+   justify-content: flex-end;
   }
 
   .footerTitle {
@@ -310,26 +302,29 @@ form button h3 {
     border-bottom: none;
   }
 
-  .buttonDiv button:hover {
+  .buttonDiv button:hover{
     background: #fff;
     cursor: pointer;
+    
+    
   }
 
-  .buttonDiv button h3:hover {
+  .buttonDiv button h3:hover{
     color: black;
     font-weight: 400;
   }
 
-  .formContact button:hover {
+  .formContact button:hover{
     background: #fff;
     cursor: pointer;
+    
   }
-  .formContact button h3:hover {
+  .formContact button h3:hover{
     color: black;
     font-weight: 400;
   }
 
-  .activeFooter {
+  .activeFooter{
     padding-top: 3rem;
   }
 
@@ -342,27 +337,29 @@ form button h3 {
     flex-direction: column;
   }
 
-  .headerContact {
+  .headerContact{
     width: 50%;
     height: 7rem;
     display: flex;
     flex-direction: row;
   }
 
-  .logoContact {
+  .logoContact{
     width: 20%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    
   }
 
-  .logoContact img {
+  .logoContact img{
     width: 100%;
     height: 100%;
   }
+  
 
-  .menuContact {
+  .menuContact{
     width: 60%;
     height: 100%;
     display: flex;
@@ -371,23 +368,23 @@ form button h3 {
     justify-content: center;
   }
 
-  .menuContact ul {
+  .menuContact ul{
     display: flex;
     flex-direction: row;
-    list-style: none;
+    list-style:none
   }
-  .menuContact ul li {
+  .menuContact ul li{
     color: #fff;
     font-size: 0.7rem;
-    margin: 0 1rem 0 1rem;
+    margin:  0 1rem 0 1rem;
     cursor: pointer;
   }
 
-  .menuContact ul li:hover {
+  .menuContact ul li:hover{
     color: #3189ff;
   }
 
-  .contactAdress {
+  .contactAdress{
     width: 20%;
     height: 100%;
     display: flex;
@@ -397,6 +394,7 @@ form button h3 {
 
   .contactAdress p {
     font-size: 0.6rem;
+ 
   }
 
   .socialContact {
@@ -406,7 +404,7 @@ form button h3 {
     align-items: center;
   }
 
-  .socialContact i {
+  .socialContact i{
     color: #fff;
     font-size: 1.6rem;
     margin-right: 1.2rem;
