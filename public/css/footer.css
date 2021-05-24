@@ -405,6 +405,11 @@ form button h3 {
     align-items: center;
   }
 
+  .socialContact p {
+    margin-right: 2rem;
+  }
+  
+
   .socialContact i{
     color: #fff;
     font-size: 1.6rem;
