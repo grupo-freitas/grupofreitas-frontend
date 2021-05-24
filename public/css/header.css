@@ -83,8 +83,7 @@
 .infoHeader p {
   color: #fff;
   font-size: 0.7rem;
-  font-weight: 400;
-  text-align: justify;
+  font-weight: 200;
   margin-top: 1rem;
   line-height: 1.2rem;
 }
@@ -130,8 +129,8 @@
 
 @media (min-width: 600px) and (max-width: 769px) {
   .infoHeader p {
-    font-size: 1.1rem;
-    font-weight: 200;
+    font-size: 1rem;
+    font-weight: 300;
     line-height: 1.6rem;
     text-align: justify;
   }
