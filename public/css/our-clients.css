@@ -9,12 +9,30 @@
   flex-direction: column;
 }
 
+
+
+
+
 #activeClients {
   display: none;
 }
 
 #desativeClients {
   display: flex;
+}
+
+.carrousel{
+  margin-left: 13%;
+  margin-top: 5rem;
+  width: 80%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carrousel .slide img{
+  width: 75%;
 }
 
 .client {
@@ -67,6 +85,24 @@
   .client p {
     font-size: 1.2rem;
   }
+
+.our-clients{
+  height: 35rem;
+}
+
+  .carrousel{
+    margin-left: 13%;
+    margin-top: 5rem;
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carrousel .slide img{
+    width: 75%;
+  }
 }
 
 @media (min-width: 770px) and (max-width: 3840px) {
@@ -95,5 +131,23 @@
   .infoClient p {
     margin: 0;
     font-size: 0.9rem;
+  }
+  
+  .our-clients{
+    height: 30rem;
+  }
+
+  .carrousel{
+    margin-left: 13%;
+    margin-top: 5rem;
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carrousel .slide img{
+    width: 50%;
   }
 }
