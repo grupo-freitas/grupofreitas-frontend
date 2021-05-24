@@ -263,6 +263,12 @@ form button h3 {
 }
 
 @media (min-width: 770px) and (max-width: 3840px) {
+
+
+  .contact{
+    height: auto;
+  }
+
   .desativeFooter {
     display: none;
   }
@@ -275,17 +281,18 @@ form button h3 {
     width: 100%;
     justify-content: center;
     height: auto;
+    margin-bottom: 2rem;
   }
   .footerInfo {
     width: 30%;
-    border-bottom: 1px solid #979797;
+    height: auto;
   }
   .formContact {
     width: 20%;
     margin-top: 5rem;
-    border-bottom: 1px solid #979797;
     display: flex;
    justify-content: flex-end;
+
   }
 
   .footerTitle {
@@ -307,7 +314,9 @@ form button h3 {
     padding-top: 2rem;
     border-bottom: none;
     margin-top: 2rem;
+    
   }
+
 
   .buttonDiv button:hover{
     background: #fff;
@@ -352,7 +361,7 @@ form button h3 {
   }
 
   .logoContact{
-    width: 20%;
+    width: 30%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -361,13 +370,13 @@ form button h3 {
   }
 
   .logoContact img{
-    width: 100%;
+    width: 95%;
     height: 100%;
   }
   
 
   .menuContact{
-    width: 60%;
+    width: 70%;
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -391,13 +400,7 @@ form button h3 {
     color: #3189ff;
   }
 
-  .contactAdress{
-    width: 20%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  
 
   .contactAdress p {
     font-size: 0.6rem;
