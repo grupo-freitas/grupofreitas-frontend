@@ -16,9 +16,9 @@
   justify-content: center;
 }
 
-.solutionImg {
-  width: 100%;
-  height: 40%;
+.solutionImg img{
+  margin-top: 1rem;
+  width: 70%;
 }
 
 .solutionTitle {
@@ -109,7 +109,7 @@
 
 .infoSolution span {
   color: #8f8f8f;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   text-align: justify;
 }
 
