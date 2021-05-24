@@ -143,6 +143,11 @@
 /* ? Layout DESKTOP  */
 
 @media (min-width: 770px) and (max-width: 3840px) {
+
+  .headerContact{
+    border-top: 1px solid white;
+  }
+
   .backHeader {
     background-image: none;
     height: 60rem;
