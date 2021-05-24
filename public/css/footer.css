@@ -243,6 +243,10 @@ form button h3 {
     font-size: 1.1rem;
   }
 
+  .contact{
+    height: auto;
+  }
+
   .contactInfo p {
     font-size: 1rem;
   }
