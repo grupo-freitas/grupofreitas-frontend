@@ -13,16 +13,16 @@ header {
   background: #1e7ace;
 
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .header {
-  width: 95%;
+  width: 90%;
   height: 100px;
   display: flex;
   flex-direction: row;
 
-  background-color: red;
 }
 
 .logo {
@@ -55,4 +55,25 @@ header {
     color: #fff;
     
     font-size: 20px;
+}
+
+.headerTitle{
+    width: 90%;
+    height: 150px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerTitle h1{
+    color: #fff;
+    width: 85%;
+
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+}
+
+.headerImg{
+    
 }
