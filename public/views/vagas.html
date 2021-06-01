@@ -33,11 +33,47 @@
             </div>
         </header>
         <main>
-            <div class="personalData">
-                <div class="personalTitle">
-                    <h2>Dados Pessoais</h2>
+            <form action="">
+                <div class="personalData">
+                    <div class="personalTitle">
+                        <h2>Dados Pessoais</h2>
+                    </div>
+                    <div class="personalInfo">
+                        <label for="name"> Nome Completo</label>
+                        <input type="text" name="name" id="name" >
+
+                        <label for="cpf"> CPF</label>
+                        <input type="text" name="cpf" id="cpf" >
+
+                        <div class="personalSelect">
+                            <div class="personalGender">
+                                <label for="gender">Gênero</label>
+                                <select name="gender" id="gender">
+                                    <option value="masc">Masculino</option>
+                                    <option value="fem">Feminino</option>
+                                </select>
+                            </div>
+                            <div class="personalState">
+                                <label for="gender">Estado Civil</label>
+                                <select name="gender" id="gender">
+                                    <option value="masc">Solteiro</option>
+                                    <option value="fem">Casado</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="personalSelect">
+                            <div class="personalGender">
+                                <label for="gender">Vaga PCD?</label>
+                                
+                            </div>
+                            <div class="personalState">
+                                <label for="gender">Possui Filhos?</label>
+                                
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </form>
         </main>
     </div>
 
