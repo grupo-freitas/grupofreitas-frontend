@@ -65,15 +65,15 @@
                             <div class="personalGender">
                                 <label for="gender">Vaga PCD?</label>
                                 <div class="genderButton">
-                                    <button>Sim</button>
-                                    <button>Não</button>
+                                    <button type="reset">Sim</button>
+                                    <button type="reset">Não</button>
                                 </div>
                             </div>
                             <div class="personalState">
                                 <label for="gender">Possui Filhos?</label>
                                 <div class="genderButton">
-                                    <button>Sim</button>
-                                    <button>Não</button>
+                                    <button type="reset">Sim</button>
+                                    <button type="reset">Não</button>
                                 </div>
                             </div>
                         </div>
@@ -84,6 +84,36 @@
                             </div>
                             <div class="personalState" id="many">
                                 <label for="cpf"> Quantos?</label>
+                                <input type="text" name="cpf" id="cpf">
+                            </div>
+                        </div>
+                        <div class="personalSelect" id=personalMany>
+                            <div class="personalGender">
+                                <label for="name"> Naturalidade</label>
+                                <input type="text" name="name" id="name">
+                            </div>
+                            <div class="personalState" id="many">
+                                <label for="cpf"> Nacionalidade</label>
+                                <input type="text" name="cpf" id="cpf">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="personalTitle">
+                        <h2>Endereço</h2>
+                    </div>
+
+                    <div class="personalInfo">
+                        <label for="name"> Logradouro</label>
+                        <input type="text" name="name" id="name">
+
+                        <div class="personalSelect" id=personalMany>
+                            <div class="personalGender">
+                                <label for="name">Número</label>
+                                <input type="text" name="name" id="name">
+                            </div>
+                            <div class="personalState" id="many">
+                                <label for="cpf">Complemento</label>
                                 <input type="text" name="cpf" id="cpf">
                             </div>
                         </div>
