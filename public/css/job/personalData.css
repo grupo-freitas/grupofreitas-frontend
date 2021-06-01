@@ -97,3 +97,39 @@
     border-radius: 10px;
     border: 1px solid #D0D0D0;
 }
+
+.genderButton{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.genderButton button{
+    padding: 8px 15px;
+}
+
+.genderButton button:first-child{
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #D0D0D0;
+    background: #FFF;
+}
+
+.genderButton button:first-child:hover{
+    border: 1px solid #37C77F;
+    color: #37C77F;
+    cursor: pointer;
+}
+
+.genderButton button:last-child{
+    border-radius: 0 5px 5px 0;
+    border: 1px solid #D0D0D0;
+    background: #FFF;
+}
+
+.genderButton button:last-child:hover{
+    border: 1px solid #bb2929;
+    color: #bb2929;
+    cursor: pointer;
+}
