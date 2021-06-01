@@ -2,6 +2,7 @@
     width: 100%;
     height: 600px;
 
+    padding-top: 2rem;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -132,4 +133,16 @@
     border: 1px solid #bb2929;
     color: #bb2929;
     cursor: pointer;
+}
+
+.personalSelect input{
+    width: 90%;
+}
+
+#many {
+    padding-left: 1.2rem;
+}
+
+#personalMany{
+    margin-top: -10px;
 }
