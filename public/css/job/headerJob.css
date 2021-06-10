@@ -2,13 +2,29 @@
   width: 100vw;
   height: 100vh;
   background: #fff;
+overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.contentHeader {
+  overflow: hidden;
+  width: 100vw;
 
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.headerContainer{
+#activeDesktop {
+  display: none;
+}
+#desativeDesktop {
+  display: flex;
+}
+.headerContainer {
   width: 100vw;
   height: 667px;
   background: #1e7ace;
@@ -16,6 +32,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.contentHeader {
+  display: flex;
+}
+.contentHeaderDesktop {
+  display: none;
 }
 
 header {
@@ -33,7 +56,6 @@ header {
   height: 100px;
   display: flex;
   flex-direction: row;
-
 }
 
 .logo {
@@ -64,58 +86,146 @@ header {
 }
 
 .menu i {
-    color: #fff;
-    
-    font-size: 20px;
+  color: #fff;
+
+  font-size: 20px;
 }
 
-.headerTitle{
-    width: 90%;
-    height: 120px;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.headerTitle {
+  width: 90%;
+  height: 120px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.headerTitle h1{
-    color: #fff;
-    width: 85%;
+.headerTitle h1 {
+  color: #fff;
+  width: 85%;
 
-    font-size: 1.5rem;
-    line-height: 2.1rem;
+  font-size: 1.5rem;
+  line-height: 2.1rem;
 }
 
-.headerImg{
-    width: 85%;
-    height: 420px;
+.headerImg {
+  width: 85%;
+  height: 420px;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.headerImg img{
-    width: 90%;
-    height: 60%;
+.headerImg img {
+  width: 90%;
+  height: 60%;
 }
 
-.headerImg span{
-    margin-top: 3rem;
-    color: #fff;
+.headerImg span {
+  margin-top: 3rem;
+  color: #fff;
 
-    font-size: 0.8rem;
-    font-weight: 400;
-    line-height: 1.4rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.4rem;
 
-    text-align:start;
+  text-align: start;
 
-    width: 85%;
+  width: 85%;
 }
-
 
 @media (min-width: 1281px) and (max-width: 3840px) {
   header {
-      width: 1280px;
+    width: 1280px;
+  }
+  
+
+  #desativeDesktop {
+    display: none;
+  }
+  #activeDesktop {
+    display: flex;
+  }
+
+  .logo {
+    margin-left: 40px;
+  }
+  .menu {
+    width: 70%;
+  }
+
+  .menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+
+    font-weight: 300;
+    font-size: 0.8rem;
+  }
+
+  .menu ul li {
+    display: flex;
+    align-items: center;
+
+    width: 90px;
+
+    list-style: none;
+  }
+
+  .menu ul button {
+    height: 35px;
+    width: 20%;
+    font-size: 0.8rem;
+
+    background: none;
+
+    border: 1px solid #fff;
+    border-radius: 8px;
+
+    color: #fff;
+
+    cursor: pointer;
+  }
+
+  .logo {
+    width: 600px;
+  }
+
+  .contentHeader {
+    display: none;
+  }
+  .contentHeaderDesktop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .headerTitle {
+    flex-direction: column;
+    width: 40%;
+  }
+
+  .headerTitle h1{
+    font-size: 2.2rem;
+    line-height: 2.7rem;
+  }
+  .headerTitle span {
+    color: #fff;
+    width: 85%;
+
+    margin-top: 2rem;
+
+    font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 1.2rem;
+  }
+
+  .headerImg {
+    width: 600px;
+  }
+
+  .headerImg img {
+    height: 100%;
   }
 }
