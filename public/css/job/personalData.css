@@ -1,167 +1,160 @@
 .personalData {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 
-    padding-top: 2rem;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-
-    
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 main {
-    max-width: 1280px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  max-width: 1280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-
 
 .personalTitle {
-    width: 80%;
-    height: 100px;
+  width: 80%;
+  height: 100px;
 
- 
-    display: flex;
-    align-items: flex-end;
+  display: flex;
+  align-items: flex-end;
 }
 
-.personalTitle h2{
-    color: #152B3F;
-    font-size: 1.8rem;
-    font-weight: 500;
+.personalTitle h2 {
+  color: #152b3f;
+  font-size: 1.8rem;
+  font-weight: 500;
 }
 
 .personalInfo {
-    padding-top: 40px;
-    
-    width: 80%;
-    display: flex;
-    flex-direction: column;
+  padding-top: 40px;
+
+  width: 80%;
+  display: flex;
+  flex-direction: column;
 }
 
-.personalInfo label{
-    color: #636363;
-    font-size: 1rem;
-    padding-top: 1rem;
+.personalInfo label {
+  color: #636363;
+  font-size: 1rem;
+  padding-top: 1rem;
 }
 
-.personalInfo input{
-    padding: 10px 20px;
-    margin-top: 1rem;
+.personalInfo input {
+  padding: 10px 20px;
+  margin-top: 1rem;
 
-    border-radius: 10px;
-    border: 1px solid #D0D0D0;
+  border-radius: 10px;
+  border: 1px solid #d0d0d0;
 }
 
-.personalSelect{
-    width: 100%;
-    height: 130px;
+.personalSelect {
+  width: 100%;
+  height: 130px;
 
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .personalGender {
-    width: 50%;
-    height: 100%;
-
+  width: 50%;
+  height: 100%;
 }
 
-.personalGender label{
-    color: #636363;
-    font-size: 1rem;
-    padding-top: 1rem;
+.personalGender label {
+  color: #636363;
+  font-size: 1rem;
+  padding-top: 1rem;
 }
 
-.personalGender select{
-    padding: 10px 20px;
-    margin-top: 1rem;
-    width: 90%;
+.personalGender select {
+  padding: 10px 20px;
+  margin-top: 1rem;
+  width: 90%;
 
-    border-radius: 10px;
-    border: 1px solid #D0D0D0;
+  border-radius: 10px;
+  border: 1px solid #d0d0d0;
 }
 
 .personalState {
-    width: 50%;
-    height: 100%;
-
+  width: 50%;
+  height: 100%;
 }
 
-.personalState label{
-    color: #636363;
-    font-size: 1rem;
-    padding-top: 1rem;
+.personalState label {
+  color: #636363;
+  font-size: 1rem;
+  padding-top: 1rem;
 }
 
-.personalState select{
-    padding: 10px 20px;
-    margin-top: 1rem;
-    width: 90%;
+.personalState select {
+  padding: 10px 20px;
+  margin-top: 1rem;
+  width: 90%;
 
-    border-radius: 10px;
-    border: 1px solid #D0D0D0;
+  border-radius: 10px;
+  border: 1px solid #d0d0d0;
 }
 
-.genderButton{
-    width: 100%;
-    height: auto;
+.genderButton {
+  width: 100%;
+  height: auto;
 
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
-.genderButton button{
-    padding: 8px 15px;
+.genderButton button {
+  padding: 8px 15px;
 }
 
-.genderButton button:first-child{
-    border-radius: 5px 0 0 5px;
-    border: 1px solid #D0D0D0;
-    background: #FFF;
+.genderButton button:first-child {
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #d0d0d0;
+  background: #fff;
 }
 
-.genderButton button:first-child:hover{
-    border: 1px solid #37C77F;
-    color: #37C77F;
-    cursor: pointer;
+.genderButton button:first-child:hover {
+  border: 1px solid #37c77f;
+  color: #37c77f;
+  cursor: pointer;
 }
 
-.genderButton button:last-child{
-    border-radius: 0 5px 5px 0;
-    border: 1px solid #D0D0D0;
-    background: #FFF;
+.genderButton button:last-child {
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #d0d0d0;
+  background: #fff;
 }
 
-.genderButton button:last-child:hover{
-    border: 1px solid #bb2929;
-    color: #bb2929;
-    cursor: pointer;
+.genderButton button:last-child:hover {
+  border: 1px solid #bb2929;
+  color: #bb2929;
+  cursor: pointer;
 }
 
-.personalSelect input{
-    width: 90%;
+.personalSelect input {
+  width: 90%;
 }
 
 #many {
-    padding-left: 1.2rem;
+  padding-left: 1.2rem;
 }
 
-#personalMany{
-    margin-top: -10px;
+#personalMany {
+  margin-top: -10px;
 }
 
-#name{
-    margin-bottom: 1.2rem;
+#name {
+  margin-bottom: 1.2rem;
 }
 
-@media (min-width: 1281px) and (max-width: 3840px){
-    .personalData {
-        width: 1280px;
-    }
+@media (min-width: 1281px) and (max-width: 3840px) {
+  .personalData {
+    width: 1280px;
+  }
 }
