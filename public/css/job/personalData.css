@@ -157,4 +157,7 @@ main {
   .personalData {
     width: 1280px;
   }
+  header {
+      width: 1280px;
+  }
 }
