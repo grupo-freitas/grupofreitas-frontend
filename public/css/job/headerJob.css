@@ -138,17 +138,17 @@ header {
 
 @media (min-width: 1090px) and (max-width: 3840px) {
   *::-webkit-scrollbar {
-    width: 12px;
+    width: 6px;
   }
   
   *::-webkit-scrollbar-track {
-    background: #FFFFFF;
+    background: #1E7ACE;
   }
   
   *::-webkit-scrollbar-thumb {
-    background-color: #1E7ACE;
+    background-color: #FFFFFF;
     border-radius: 20px;
-    border: 2px solid #FFFFFF;
+    border: 2px solid #1E7ACE;
   }
 
   header {
