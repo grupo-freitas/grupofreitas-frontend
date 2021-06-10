@@ -6,16 +6,3 @@
   outline: none;
 }
 
-*::-webkit-scrollbar {
-  width: 12px;
-}
-
-*::-webkit-scrollbar-track {
-  background: #FFFFFF;
-}
-
-*::-webkit-scrollbar-thumb {
-  background-color: #1E7ACE;
-  border-radius: 20px;
-  border: 2px solid #FFFFFF;
-}
