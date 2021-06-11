@@ -1,13 +1,11 @@
-
 .container {
   width: 100vw;
   height: 100vh;
   background: #fff;
-overflow-x: hidden;
+  overflow-x: hidden;
   display: flex;
   align-items: center;
   flex-direction: column;
-  
 }
 
 .contentHeader {
@@ -140,21 +138,20 @@ header {
   *::-webkit-scrollbar {
     width: 1.25px;
   }
-  
+
   *::-webkit-scrollbar-track {
-    background: #1E7ACE;
+    background: #1e7ace;
   }
-  
+
   *::-webkit-scrollbar-thumb {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border-radius: 20px;
-    border: 0px solid #1E7ACE;
+    border: 0px solid #1e7ace;
   }
 
   header {
     width: 1280px;
   }
-  
 
   #desativeDesktop {
     display: none;
@@ -205,10 +202,10 @@ header {
     cursor: pointer;
   }
 
-  .menu ul button:hover{
+  .menu ul button:hover {
     border: 1px solid #1e7ace;
     background: #fff;
-    color: #1E7ACE;
+    color: #1e7ace;
 
     transition: 0.3s;
   }
@@ -225,14 +222,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    
   }
   .headerTitle {
     flex-direction: column;
     width: 40%;
   }
 
-  .headerTitle h1{
+  .headerTitle h1 {
     font-size: 2.2rem;
     line-height: 2.7rem;
   }
