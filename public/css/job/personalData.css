@@ -153,6 +153,65 @@ main {
   margin-bottom: 1.2rem;
 }
 
+.contactSession {
+  width: 80%;
+  height: auto;
+  
+  padding-top: 50px;
+
+}
+
+.phoneContact label{
+  color: #636363;
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+
+.phoneContact input{
+  padding: 10px 20px;
+  width: 200px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  border-radius: 10px;
+  border: 1px solid #d0d0d0;
+}
+
+.cellphoneContact label{
+  color: #636363;
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+
+.cellphoneContact input{
+  padding: 10px 20px;
+  margin-top: 1rem;
+  width: 200px;
+  margin-bottom: 1rem;
+
+  border-radius: 10px;
+  border: 1px solid #d0d0d0;
+}
+
+.emailContact label {
+  color: #636363;
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+
+.emailContact input{
+  padding: 10px 20px;
+  margin-top: 1rem;
+  width: 250px;
+  margin-bottom: 1rem;
+
+  border-radius: 10px;
+  border: 1px solid #d0d0d0;
+}
+
+
+
+
 @media (min-width: 1281px) and (max-width: 3840px) {
   .personalData {
     width: 1280px;
