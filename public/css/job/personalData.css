@@ -314,4 +314,13 @@ main {
   header {
     width: 1280px;
   }
+
+  .curriculum label{
+    width: 35%;
+  }
+
+  .sendForm button{
+    width: 35%;
+    margin-left: -300px;
+  }
 }
