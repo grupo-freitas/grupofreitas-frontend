@@ -53,7 +53,7 @@ main {
 
 .personalSelect {
   width: 100%;
-  height: 130px;
+  height: 100px;
 
   display: flex;
   flex-direction: row;
@@ -63,7 +63,7 @@ main {
 
 .personalGender {
   width: 50%;
-  height: 100%;
+  height: 50%;
 }
 
 .personalGender label {
@@ -156,12 +156,11 @@ main {
 .contactSession {
   width: 80%;
   height: auto;
-  
-  padding-top: 50px;
 
+  padding-top: 50px;
 }
 
-.phoneContact label{
+.phoneContact label {
   color: #636363;
   font-size: 1rem;
   padding-top: 1rem;
@@ -171,12 +170,11 @@ main {
   width: 90%;
 }
 
-
 #info {
   padding-top: 0;
 }
 
-.phoneContact input{
+.phoneContact input {
   padding: 10px 20px;
   width: 200px;
   margin-top: 1rem;
@@ -186,13 +184,13 @@ main {
   border: 1px solid #d0d0d0;
 }
 
-.cellphoneContact label{
+.cellphoneContact label {
   color: #636363;
   font-size: 1rem;
   padding-top: 1rem;
 }
 
-.cellphoneContact input{
+.cellphoneContact input {
   padding: 10px 20px;
   margin-top: 1rem;
   width: 200px;
@@ -208,7 +206,7 @@ main {
   padding-top: 1rem;
 }
 
-.emailContact input{
+.emailContact input {
   padding: 10px 20px;
   margin-top: 1rem;
   width: 250px;
@@ -223,20 +221,97 @@ main {
   height: 270px;
 }
 
-#textareaExperience{
+#textareaExperience {
   height: 230px;
   width: 100%;
   resize: none;
 
   border: 1px solid #d0d0d0;
-  
 }
+
+.declarationText {
+  margin-top: 2rem;
+  width: 100%;
+  height: auto;
+}
+
+.declarationText p {
+  text-align: justify;
+  font-size: 0.9rem;
+  color: #636363;
+}
+
+.declarationText .genderButton {
+  margin-top: 1rem;
+}
+
+.buttonsSend {
+  margin-top: 2rem;
+
+  width: 100%;
+  height: 100px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.curriculum {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+}
+
+.curriculum input[type="file"] {
+  width: 80%;
+  display: none;
+}
+
+.curriculum label {
+  border: 1px solid;
+  width: 95%;
+  height: 50px;
+  border-radius: 8px;
+
+  color: #152b3f;
+
+  font-size: 0.8rem;
+  font-weight: 500;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.sendForm {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+}
+
+
+.sendForm button{
+  width: 90%;
+  height: 50px;
+  border-radius: 8px;
+
+  border: 1px solid #152b3f;
+  background: #152b3f;
+
+  font-weight: 300;
+
+  color: #fff;
+}
+
+
 @media (min-width: 1281px) and (max-width: 3840px) {
   .personalData {
     width: 1280px;
   }
   header {
-      width: 1280px;
+    width: 1280px;
   }
-  
 }
