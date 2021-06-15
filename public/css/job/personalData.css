@@ -323,4 +323,13 @@ main {
     width: 35%;
     margin-left: -300px;
   }
+
+  .contactSession{
+    display: flex;
+    
+  }
+
+  .contactSession div {
+    margin-right: 1.5rem;
+  }
 }
