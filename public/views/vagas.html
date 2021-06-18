@@ -3,9 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/public/assets/logoFreitas.jpeg" type="image/x-icon">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Faça Parte | Grupo Freitas</title>
     <link rel="stylesheet" href="/public/fontawesome/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap"
         rel="stylesheet">
@@ -66,11 +67,29 @@
                         <h2>Dados Pessoais</h2>
                     </div>
                     <div class="personalInfo">
-                        <label for="name"> Nome Completo</label>
-                        <input type="text" name="name" id="name">
 
-                        <label for="cpf"> CPF</label>
-                        <input type="text" name="cpf" id="cpf">
+                        <div class="mobileData">
+                            <label for="name"> Nome Completo</label>
+                            <br>
+                            <input type="text" name="name" id="name" class="desktopResponsive">
+                            <br>
+                            <label for="cpf"> CPF</label>
+                            <br>
+                            <input type="text" name="cpf" id="cpf" class="desktopResponsive">
+                        </div>
+
+                        <div class="personalSelect" id="desktop">
+                            <div class="personalGender">
+                                <label for="name"> Nome Completo</label>
+                                <br>
+                                <input type="text" name="name" id="name" class="desktopResponsive">
+                            </div>
+                            <div class="personalState">
+                                <label for="cpf"> CPF</label>
+                                <br>
+                                <input type="text" name="cpf" id="cpf" class="desktopResponsive">
+                            </div>
+                        </div>
 
                         <div class="personalSelect">
                             <div class="personalGender">
@@ -130,48 +149,88 @@
                         <h2>Endereço</h2>
                     </div>
 
+                    
                     <div class="personalInfo">
-                        <label for="name"> Logradouro</label>
-                        <input type="text" name="name" id="name">
-
-                        <div class="personalSelect" id=personalMany>
+                        <div class="desktopAdress">
+                        <div class="personalSelect" class=personalMany>
                             <div class="personalGender">
-                                <label for="name">Número</label>
-                                <input type="text" name="name" id="name">
-                            </div>
-                            <div class="personalState" id="many">
-                                <label for="cpf">Complemento</label>
-                                <input type="text" name="cpf" id="cpf">
-                            </div>
-
-                        </div>
-                        <div class="personalSelect" id=personalMany>
-                            <div class="personalGender">
-                                <label for="name">CEP</label>
+                                <label for="cep">CEP</label>
                                 <br>
-                                <input type="text" name="name" id="name">
+                                <input type="text" name="cep" id="cep">
                             </div>
-                            <div class="personalState" id="many">
-                                <label for="cpf">Cidade</label>
-                                <input type="text" name="cpf" id="cpf">
+                            <div class="personalState" class="many">
+                                <label for="adress">Logradouro</label>
+                                <input type="text" name="adress" id="adress">
                             </div>
 
                         </div>
-                        <div class="personalSelect" id=personalMany>
+                        <div class="personalSelect" class=personalMany>
                             <div class="personalGender">
-                                <label for="name">UF</label>
-                                <br>
-                                <input type="text" name="name" id="name">
+                                <label for="number">Número</label>
+                                <input type="text" name="number" id="number">
+                            </div>
+                            <div class="personalState" class="many">
+                                <label for="complement">Complemento</label>
+                                <input type="text" name="complement" id="complement">
                             </div>
 
                         </div>
+                        <div class="personalSelect" class=personalMany>
+                            <div class="personalGender">
+                                <label for="city">Cidade</label>
+                                <br>
+                                <input type="text" name="city" id="adrescitys">
+                            </div>
+                            <div class="personalState" class="many">
+                                <label for="uf">UF</label>
+                                <br>
+                                <input type="text" name="uf" id="uf">
+                            </div>
+                        </div>
+                        </div>
+                    
+
+                        <div class="mobileAdress">
+                            <div class="iAdress">
+                                <label for="cep">CEP</label>
+                                <br>
+                                <input type="text" name="cep" id="cep" class="inputStyle">
+                            </div>
+                            <div class="iAdress">
+                                <label for="adress">Logradouro</label>
+                                <br>
+                                <input type="text" name="adress" id="adress">
+                            </div>
+                            <div class="iAdress">
+                                <label for="number">Número</label>
+                                <br>
+                                <input type="text" name="number" id="number">
+                            </div>
+                            <div class="iAdress">
+                                <label for="complement">Complemento</label>
+                                <br>
+                                <input type="text" name="complement" id="complement">
+                            </div>
+                            <div class="iAdress">
+                                <label for="city">Cidade</label>
+                                <br>
+                                <input type="text" name="city" id="city">
+                            </div>
+                            <div class="iAdress">
+                                <label for="uf">UF</label>
+                                <br>
+                                <input type="text" name="uf" id="uf">
+                            </div>
                     </div>
+
+
+
 
                     <div class="personalTitle">
                         <h2>Contato</h2>
                     </div>
 
-                    <div class="contactSession">
+                    <div class="contactSession ">
                         <div class="phoneContact">
                             <label for="phone">Telefone Residêncial</label>
                             <br>
@@ -322,8 +381,8 @@
                                 prestadas no presente formulário de identificação.
                             </p>
                             <div class="genderButton">
-                                <button type="reset">Sim</button>
-                                <button type="reset">Não</button>
+                                <input type="checkbox" name="declare" id="declare" >
+                                <label for="declare" id="declarelabel">Declaro que li e aceito os termos descritos acima.</label>
                             </div>
                         </div>
 

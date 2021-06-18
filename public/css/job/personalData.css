@@ -156,8 +156,18 @@ main {
 .contactSession {
   width: 80%;
   height: auto;
+  display: flex;
+  flex-flow: row wrap;
 
   padding-top: 50px;
+}
+
+input#cep {
+  margin-bottom: 2rem;
+}
+
+.contactSession div {
+  margin-right: 10px;
 }
 
 .phoneContact label {
@@ -292,8 +302,7 @@ main {
   align-items: center;
 }
 
-
-.sendForm button{
+.sendForm button {
   width: 90%;
   height: 50px;
   border-radius: 8px;
@@ -306,21 +315,86 @@ main {
   color: #fff;
 }
 
+#declare {
+  margin-right: 5px;
+}
+#declarelabel {
+  font-size: 0.8rem;
+}
 
-@media (min-width: 1281px) and (max-width: 3840px) {
+#desktop {
+  display: none;
+}
+
+.mobileAdress {
+  display: flex;
+  flex-direction: column;
+}
+
+.desktopAdress {
+  display: none;
+}
+
+.iAdress {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1024px) and (max-width: 3840px) {
   .personalData {
     width: 1280px;
   }
+
   header {
     width: 1280px;
   }
 
-  .curriculum label{
+  .curriculum label {
     width: 35%;
   }
 
-  .sendForm button{
+  .sendForm button {
     width: 35%;
-    margin-left: -300px;
+    margin-left: -240px;
+  }
+
+  .personalInfo .desktopResponsive {
+    width: 90%;
+  }
+
+  #desktop {
+    display: flex;
+  }
+
+  .desktopResponsive {
+    width: 50%;
+  }
+  .mobileData {
+    display: none;
+  }
+
+  #declare {
+    margin-right: 5px;
+  }
+
+  #declarelabel {
+    font-size: 1rem;
+  }
+
+  .contactSession div {
+    margin-right: 40px;
+  }
+
+  input#cep {
+    margin-bottom: 2rem;
+    width: 90%;
+  }
+
+  .mobileAdress {
+    display: none;
+  }
+
+  .desktopAdress {
+    display: flex;
+    flex-direction: column;
   }
 }

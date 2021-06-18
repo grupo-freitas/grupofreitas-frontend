@@ -136,7 +136,7 @@ header {
 
 @media (min-width: 1056px) and (max-width: 3840px) {
   *::-webkit-scrollbar {
-    width:  1.25px;
+    width: 1.25px;
   }
 
   *::-webkit-scrollbar-track {
