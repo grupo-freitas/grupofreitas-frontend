@@ -223,6 +223,8 @@ input#cep {
   width: 100%;
   resize: none;
 
+  border-radius: 8px;
+
   border: 1px solid #d0d0d0;
 }
 
@@ -395,5 +397,14 @@ button.activeFalse{
   .desktopAdress {
     display: flex;
     flex-direction: column;
+  }
+
+  .contactSession{
+    display: flex;
+    
+  }
+
+  .contactSession div {
+    margin-right: 1.5rem;
   }
 }
