@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/public/fontawesome/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap"
         rel="stylesheet">
-
+    <script src="/public/js/formSubmit.js" defer></script>
     <!-- CSS -->
     <link rel="stylesheet" href="/public/css/global.css">
     <link rel="stylesheet" href="/public/css/job/headerJob.css">
@@ -61,7 +61,7 @@
             </header>
         </div>
         <main>
-            <form action="">
+            <form action="" method="POST">
                 <div class="personalData">
                     <div class="personalTitle">
                         <h2>Dados Pessoais</h2>
@@ -111,15 +111,17 @@
                             <div class="personalGender">
                                 <label for="gender">Vaga PCD?</label>
                                 <div class="genderButton">
-                                    <button type="reset">Sim</button>
-                                    <button type="reset">Não</button>
+                                    <input type="hidden" name="pcd" id="pcd" value=0>
+                                    <button type="button" class="true " >Sim</button>
+                                    <button type="button" class="false ">Não</button>
                                 </div>
                             </div>
                             <div class="personalState">
                                 <label for="gender">Possui Filhos?</label>
                                 <div class="genderButton">
-                                    <button type="reset">Sim</button>
-                                    <button type="reset">Não</button>
+                                    <input type="hidden" name="children" id="children">
+                                    <button type="button" class="trueChildren">Sim</button>
+                                    <button type="button" class="falseChildren">Não</button>
                                 </div>
                             </div>
                         </div>
@@ -261,8 +263,9 @@
                                 <label for="gender">Possui Experiência em call center e / ou cobrança?
                                 </label>
                                 <div class="genderButton">
-                                    <button type="reset">Sim</button>
-                                    <button type="reset">Não</button>
+                                    <input type="hidden" name="experience" id="experience">
+                                    <button type="button" class="trueExperience">Sim</button>
+                                    <button type="button" class="falseExperience">Não</button>
                                 </div>
                             </div>
 
@@ -302,8 +305,9 @@
 
                                 </label>
                                 <div class="genderButton">
-                                    <button type="reset">Sim</button>
-                                    <button type="reset">Não</button>
+                                    <input type="hidden" name="availability" id="availability" value="0">
+                                    <button type="button" class="trueAvailability">Sim</button>
+                                    <button type="button" class="falseAvailability">Não</button>
                                 </div>
                             </div>
 
@@ -318,8 +322,9 @@
                                 <label for="gender">Possui familiares que trabalham no Grupo Freitas?
                                 </label>
                                 <div class="genderButton">
-                                    <button type="reset">Sim</button>
-                                    <button type="reset">Não</button>
+                                    <input type="hidden" name="relatives" id="relatives">
+                                    <button type="button" class="trueRelatives">Sim</button>
+                                    <button type="button" class="falseRelatives">Não</button>
                                 </div>
                             </div>
 
@@ -330,8 +335,9 @@
                                 <label for="gender">Já trabalhou no Grupo Freitas?
                                 </label>
                                 <div class="genderButton">
-                                    <button type="reset">Sim</button>
-                                    <button type="reset">Não</button>
+                                    <input type="hidden" name="alreadywork" id="alreadywork">
+                                    <button type="button" class="trueAlreadywork">Sim</button>
+                                    <button type="button" class="falseAlreadywork">Não</button>
                                 </div>
                             </div>
 
@@ -342,8 +348,9 @@
                                 <label for="gender">Já participou de nossa Seleção nos últimos 3 meses?
                                 </label>
                                 <div class="genderButton">
-                                    <button type="reset">Sim</button>
-                                    <button type="reset">Não</button>
+                                    <input type="hidden" name="participated" id="participated">
+                                    <button type="button" class="trueParticipated">Sim</button>
+                                    <button type="button" class="falseParticipated">Não</button>
                                 </div>
                             </div>
 
@@ -354,8 +361,9 @@
                                 <label for="gender">Possui disponibilidade para atuar de Segunda-feira a Sábado?
                                 </label>
                                 <div class="genderButton">
-                                    <button type="reset">Sim</button>
-                                    <button type="reset">Não</button>
+                                    <input type="hidden" name="availabilityweek" id="availabilityweek">
+                                    <button type="button" class="trueAvailabilityweek">Sim</button>
+                                    <button type="button" class="falseAvailabilityweek">Não</button>
                                 </div>
                             </div>
 
@@ -381,7 +389,7 @@
                                 prestadas no presente formulário de identificação.
                             </p>
                             <div class="genderButton">
-                                <input type="checkbox" name="declare" id="declare" >
+                                <input type="checkbox" name="declare" id="declare" value="0">
                                 <label for="declare" id="declarelabel">Declaro que li e aceito os termos descritos acima.</label>
                             </div>
                         </div>

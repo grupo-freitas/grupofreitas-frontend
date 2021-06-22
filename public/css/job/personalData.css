@@ -111,30 +111,17 @@ main {
 
 .genderButton button {
   padding: 8px 15px;
-}
-
-.genderButton button:first-child {
-  border-radius: 5px 0 0 5px;
   border: 1px solid #d0d0d0;
   background: #fff;
 }
 
-.genderButton button:first-child:hover {
-  border: 1px solid #37c77f;
-  color: #37c77f;
-  cursor: pointer;
+.genderButton button{
+  border-radius: 5px 0 0 5px;
 }
 
 .genderButton button:last-child {
   border-radius: 0 5px 5px 0;
-  border: 1px solid #d0d0d0;
-  background: #fff;
-}
-
-.genderButton button:last-child:hover {
-  border: 1px solid #bb2929;
-  color: #bb2929;
-  cursor: pointer;
+  
 }
 
 .personalSelect input {
@@ -337,6 +324,18 @@ input#cep {
 
 .iAdress {
   margin-bottom: 20px;
+}
+
+button.activeTrue {
+  color: #37c77f;
+  background: #EDFFF6;
+  border-color:#37c77f
+}
+
+button.activeFalse{
+  color: #C75137;
+  background: #f6eaea;
+  border-color:#C75137;
 }
 
 @media (min-width: 1024px) and (max-width: 3840px) {
